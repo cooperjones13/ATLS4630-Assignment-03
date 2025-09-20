@@ -1,0 +1,62 @@
+.taskListItem{
+    box-sizing: border-box;
+    background-color: #BACDB0;
+    width: 80%;
+    padding-inline: 16px;
+    display: flex;
+    height: 64px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+
+
+    border-style: solid;
+    border-color: #729B79;
+    border-radius: 16px;
+    border-width: 2px;
+}
+
+.taskListItem span{
+    font-size: 1.5rem;
+    flex-grow: 1;
+}
+
+
+.taskListItem button{
+    font-family: 'Poppins', sans-serif;
+
+    box-sizing: border-box;
+    padding-inline: 16px;
+    padding-block: 8px;
+
+    background-color: whitesmoke;
+    border-color: #445F48;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.taskListItem button:hover{
+    color: white;
+    background-color: rgb(129, 129, 129);
+    border-color: #445F48;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.itemCheckBox{
+    accent-color: #445F48;
+    width: 16px;
+    height: 16px;
+}
+
+
+.completed{
+    background-color:#cfcfcf;
+}
+
+.completed span{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    /* text-decoration-color: #445F48; */
+    color: #635f65;
+}

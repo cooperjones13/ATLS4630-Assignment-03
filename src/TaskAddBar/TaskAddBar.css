@@ -1,0 +1,54 @@
+.taskAddBar{
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+    box-sizing: border-box;
+    padding-inline: 16px;
+    width: 50%;
+    height: 64px;
+
+    border-style: solid;
+    border-color: #445F48;
+    border-radius: 16px;
+}
+
+
+.taskAddBar button{
+    font-family: 'Poppins', sans-serif;
+
+    box-sizing: border-box;
+    padding-inline: 16px;
+    padding-block: 8px;
+
+    background-color: whitesmoke;
+    border-color: #445F48;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.taskAddBar button:hover{
+    color: white;
+    background-color: rgb(129, 129, 129);
+    border-color: #445F48;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.taskInput{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+
+    flex-grow: 1;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.taskInput:focus{
+    outline: none;
+}
