@@ -12,7 +12,7 @@
     padding-left: 64px;
     margin: 0;    
     height: 64px;
-    width:100vw;
+    width:100%;
     
     background-color: #BACDB0;
     
@@ -35,7 +35,8 @@
     gap: 32px;
     
 
-    padding-top: 32px;
+    padding-block: 32px;
+
 
 
 }
